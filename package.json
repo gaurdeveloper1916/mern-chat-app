@@ -1,0 +1,22 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurdeveloper1916/mern-chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurdeveloper1916/mern-chat-app/issues"
+  },
+  "homepage": "https://github.com/gaurdeveloper1916/mern-chat-app#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
