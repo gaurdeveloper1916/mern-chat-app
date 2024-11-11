@@ -1,0 +1,10 @@
+.signin-bg-image{
+    background-image: url('https://images.unsplash.com/photo-1713769460451-bc91c0218eae?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYnNpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww');
+    /* object-fit: cover; */
+  
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 100vh;
+
+}
