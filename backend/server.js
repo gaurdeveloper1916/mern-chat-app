@@ -2,6 +2,7 @@ const express = require('express')
 const dotenv = require('dotenv')
 const connectDB = require('./config/db')
 const userRoute = require("./routes/userRoute")
+const chatRoutes = require("./routes/chatRoute")
 const { notFound, errorHandler } = require('./middleware/errorMiddleware')
 dotenv.config()
 
@@ -13,6 +14,8 @@ app.get('/', (req, res) => {
     res.send("API is running 123")
 })
 app.use('/api/user', userRoute)
+app.use('/api/chats', chatRoutes)
+
 app.use(notFound)
 app.use(errorHandler)
 app.listen(9000, console.log("Server started on 9000 port"))
